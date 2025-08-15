@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niranjan's Gallery</title>
+    <link rel="icon" type="image/x-icon" href="/img/main .ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <a href="index.html">Niranjan's Gallery</a>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="home" class="firstSection">
+            <div class="photo">
+                <img src="/img/third.jpg" alt="my photo" height="335">
+            </div>
+            <div class="name">I'm <span>Niranjan Simha D H</span></div>
+            <div class="myself">Passionate artist | Computer Science student</div>
+            <div class="socialmedia">
+                <div>
+                    <a href="https://www.instagram.com/niranjan.artistry?igsh=MXJ6OWpsbnNqZDk2ZQ==" target="_blank"><img src="img/349.jpg"  alt="instagram" height="35"></a>
+                </div>
+                
+                <div>
+                    <a href="https://www.linkedin.com/in/niranjan-simha-d-h-89aa48345/" target="_blank"><img
+                            src="img/circle-linkedin-512.webp" alt="linkedin" height="35"></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="gallery" class="secondSection">
+            <h2>Gallery</h2>
+            <video src="/arts/bg.mp4" autoplay loop muted></video>
+            <button class="btn" id="btn-arts" onclick="location.href='/arts page/arts.html'">More art works</button>
+        </div>
+
+        <div class="lineBreak">
+            <div></div>
+        </div>
+
+        <div id="about" class="thirdSection">
+            <h2>About</h2>
+            <p style="text-indent: 30px;">I am Niranjan Simha D H, a 2nd-year BCA student at SDM College, Ujire, and an
+                artist deeply inspired by
+                Indian temple culture and the timeless wisdom of Shilpashastra — the traditional science of art,
+                sculpture, and architecture. My drawings reflect a personal journey of learning and devotion, rooted in
+                the sacred forms, patterns, and philosophies found in classical Indian.
+            </p>
+
+            <p>Through my work, I explore the symbolic language of temples, sacred geometry, and traditional
+                iconography. I aim to honor and reinterpret these traditions, keeping them alive in a modern context
+                while staying true to their spiritual essence.
+            </p>
+
+            <p> Alongside my academic journey, I have a growing interest in Data Science and modern technologies. I am
+                fascinated by how data and analytics can uncover patterns, tell stories, and bring structure to the
+                complexities of the modern world — much like the intricate order and symbolism found in temple
+                architecture.
+            </p>
+
+            <p> As a lifelong learner, I am constantly seeking knowledge, refining my artistic practice, and deepening
+                my understanding of both the cultural and technological foundations that shape our times. For me, art
+                and technology are not separate, but complementary paths of exploration: one connects me to ancient
+                wisdom and spiritual depth, while the other opens doors to modern innovation and insight.
+            </p>
+
+            <p>Art, for me, is not just a form of expression — it is a way of connecting to something greater, a bridge
+                between the visible and the invisible, the past and the present. By combining my passion for traditional
+                art with my curiosity for data science, I hope to create a unique narrative that reflects both my roots
+                and my vision for the future.
+            </p>
+        </div>
+
+        <div class="lineBreak">
+            <div></div>
+        </div>
+
+        <div class="fourthSection" id="contact">
+            <h2>Contact Me</h2>
+            <div class="contact-form">
+                <div class="form">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="4e77151e-2a92-4417-a94e-e845c99508c9">
+                        <input name="name" type="text" placeholder="Enter your name" id="name" required>
+                        <input name="email" type="email" id="email" placeholder="Enter email" required>
+                        <textarea name="message" placeholder="Enter your message...." id="msg"></textarea required>
+                        <button class="btn" type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main> 
+    <footer>
+        <div class="foot">&copy;Niranjan Simha D H. All rights reserved.</div>
+    </footer>
+</body>
+
+</html>
