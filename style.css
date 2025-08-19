@@ -5,7 +5,9 @@
     margin: 0;
     padding: 0;
     font-family: poppins, sans-serif;
-
+}
+main{
+    background-color: var(--grey);
 }
 
 :root {
@@ -111,7 +113,7 @@ header {
 }
 
 .firstSection .name span {
-    color: rgb(196, 212, 10);
+    color: rgb(233, 234, 220);
     font-weight: 900;
 }
 
@@ -228,13 +230,27 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-direction: column;
+    width: 80vw;
+    margin: auto;
     /* height: 450px; */
     gap: 10px;
+    
+}
+
+.image-about img{
+    height: 500px;
+    border-radius: 20px;
+}
+.text-about{
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .thirdSection p {
-    width: 80vw;
+    width: 90%;
     text-align: justify;
 }
 
@@ -249,7 +265,6 @@ header {
     align-items: center;
     flex-direction: column;
     gap: 20px;
-
 }
 
 .fourthSection .form form {
@@ -284,7 +299,7 @@ textarea {
 
 .form {
     background-color: rgba(255, 255, 255, 0.545);
-    border-radius: 25px;
+    border-radius: 15px;
     box-shadow: 0 4px 20px rgba(19, 18, 18, 0.6),
         0 4px 30px rgba(0, 0, 0, 0.1);
 }
@@ -297,10 +312,10 @@ form input::placeholder {
 textarea {
     height: 50px;
     border: none;
-    border-radius: 15px;
+    border-radius: 7px;
     text-indent: 10px;
     outline: none;
-    box-shadow: 0 4px 20px rgba(19, 18, 18, 0.6),
+    box-shadow: 0 4px 20px rgba(90, 86, 86, 0.6),
         0 4px 30px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -325,8 +340,9 @@ textarea {
 }
 
 footer {
-    height: 65px;
+    height: 80px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: var(--light-black);
@@ -335,7 +351,10 @@ footer {
 footer div {
     color: white;
 }
-
+.foot span a{
+    color: white;
+    
+}
 
 /* Responsive ness */
 /* Responsive ness */
@@ -359,6 +378,12 @@ footer div {
 
     .firstSection {
         height: 500px;
+    }
+    .thirdSection{
+        flex-wrap: wrap;
+    }
+    .image-about{
+        display: none;
     }
 
     header {
@@ -396,7 +421,11 @@ footer div {
     .form form input,
     textarea {
         width: 67vw;
-
+    }
+    .foot{
+        text-align: center;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 }
 
