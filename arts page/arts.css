@@ -135,13 +135,13 @@ footer div {
 }
 
 @media screen and (max-width:550px) {
-    #krishna img {
+    #krishna img,#chandra img {
         height: 250px;
     }
 }
 
 @media screen and (max-width:400px) {
-    #krishna img {
+    #krishna img,#chandra img {
         height: 200px;
     }
 
