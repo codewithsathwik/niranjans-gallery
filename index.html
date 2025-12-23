@@ -7,9 +7,26 @@
     <title>Niranjan's Gallery</title>
     <meta name="description"
         content="Hi, my name is Niranjan. I am passionate about learning new things and expressing myself through art. I enjoy exploring different styles and mediums, and I love creating artworks that inspire and connect with others. Always curious and eager to grow, I’m excited to share my creative journey and connect with fellow art enthusiasts!">
+
     <meta name="keywords" content="Niranjan-Simha-DH,Niranjan,Art Works,Simha,niranjan-simha-d-h-89aa48345">
-    <link rel="icon" type="image/x-icon" href="/img/main .ico">
+    <link rel="icon" type="image/x-icon" href="/img/favicon.png">
     <link rel="stylesheet" href="style.css">
+
+    <meta name="description"
+        content="Niranjan Simha D H – 2nd-year BCA student at SDM College Ujire, artist inspired by Indian temple culture, Shilpashastra, sacred geometry." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Niranjan's Gallery" />
+
+    <meta property="og:description"
+        content="Hi, my name is Niranjan. I am passionate about learning new things and expressing myself through art. I enjoy exploring different styles and mediums, and I love creating artworks that inspire and connect with others. Always curious and eager to grow, I’m excited to share my creative journey and connect with fellow art enthusiasts!" />
+
+    <meta property="og:url" content="https://niranjansimha.netlify.app/" />
+    <meta property="og:image" content="https://niranjansimha.netlify.app/assets/hero-art.jpg" />
+    <meta property="og:site_name" content="Niranjan's Gallery" />
+
+    <meta name="keywords"
+        content="NiranjanSimha, temple art, Shilpashastra, Indian temple drawings, sacred geometry, BCA student, SDM College Ujire,niranjan,niranjansimha,niranjandh,niranjansimhadh" />
+
 </head>
 
 <body>
@@ -18,12 +35,21 @@
             <div class="left">
                 <a href="index.html">Niranjan's Gallery</a>
             </div>
+            <button class="nav-toggle" aria-expanded="false">☰</button>
             <div class="right">
                 <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#arts">Arts</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <a href="#home">
+                        <li>Home</li>
+                    </a>
+                    <a href="#arts">
+                        <li>Arts</li>
+                    </a>
+                    <a href="#about">
+                        <li>About</li>
+                    </a>
+                    <a href="#contact">
+                        <li>Contact</li>
+                    </a>
                 </ul>
             </div>
         </nav>
@@ -31,7 +57,7 @@
 
     <main>
 
-        <div id="home" class="firstSection">
+        <section id="home" class="firstSection">
             <div class="photo">
                 <img src="/img/third.jpg" alt="my photo" height="335">
             </div>
@@ -48,7 +74,7 @@
                             src="img/circle-linkedin-512.webp" alt="linkedin" height="35"></a>
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- <div class="bg-style">
             <img src="img/bg-style.png" alt="" height="300">
@@ -73,9 +99,9 @@
             </div> -->
 
 
-        <div id="about" class="thirdSection">
+        <section id="about" class="thirdSection">
             <div class="image-about">
-                <img src="img/about.jpg" alt="yakshagana img">
+                <img src="img/about.jpg" alt="yakshagana img" loading="lazy">
             </div>
             <div class="text-about">
                 <h2>About</h2>
@@ -125,13 +151,13 @@
                     and my vision for the future.
                 </p>
             </div>
-        </div>
+        </section>
 
         <div class="lineBreak">
             <div></div>
         </div>
 
-        <div class="fourthSection" id="contact">
+        <section class="fourthSection" id="contact">
             <h2>Contact Me</h2>
             <div class="contact-form">
                 <div class="form">
@@ -144,12 +170,15 @@
                     </form>
                 </div>
             </div>
-        </div>
+        </section>
     </main> 
+
     <footer>
-        <div class="foot">Made with ❤️ and music in India. Developed by <span><a href="https://sathwikms.netlify.app/">Sathwik M S</a>.</span></div>
         <div class="foot">&copy; 2025 Niranjan Simha D H.</div>
+        <div class="foot">Made with ❤️ and music in India. Developed by <span><a href="https://www.instagram.com/_sathwikms/">Sathwik M S</a>.</span></div>
     </footer>
+
+    <script src="index.js"></script>
 </body>
 
 </html>
